@@ -2,7 +2,7 @@
 
 A single-page personal portfolio site by Amine Ouaddi
 
-**Live site:**
+**Live site:** https://reblol.github.io/portfolio/
 
 ## Overview
 
