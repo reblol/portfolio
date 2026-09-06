@@ -6,27 +6,17 @@ A single-page personal portfolio site by Amine Ouaddi
 
 ## Overview
 
-This is a dashboard-style, single-page site. Instead of scrolling, the four
-buttons on the home screen (`About Me`, `Experience`, `Projects`, `Resume`)
-swap the visible screen using a custom liquid-merge transition built with
-layered CSS gradients and a gooey blur/contrast filter.
-
-## Tech stack
-
-- **HTML5 / CSS3** — no framework, no build step
-- **Vanilla JavaScript** — view switching, transition sequencing, nav state
-- **Google Fonts** — Bebas Neue (display) + Inter (body)
-- **GitHub Actions** — automated build & deploy to GitHub Pages on every push to `main`
+This is a single-page personal portfolio by Amine Ouaddi, a Data Science student at UC San Diego. The site uses a dashboard style interface with a deep blue color palette, and a custom liquid water background. Built with HTML, CSS, and JavaScript, and deployed automatically through Github Pages.
 
 ## Project structure
 
 ```
 .
-├── index.html                     # the entire site (markup, styles, script)
-├── resume.pdf                     # resume, opened directly from the Resume button
+├── index.html                     # the entire site in html format
+├── resume.pdf                     # PDF asset for resume button in website
 ├── README.md                      # you are here
 └── .github/
     └── workflows/
-        └── deploy.yml             # CI/CD: deploys to GitHub Pages automatically
+        └── deploy.yml             # deploys to GitHub Pages automatically
 ```
 
